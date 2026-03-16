@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Search, Download, RefreshCw, CheckCircle, AlertCircle, ExternalLink, Briefcase, Globe, Mail, Phone, User } from "lucide-react";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000";
+const API_BASE = "https://data-scrapper-backend-678p.onrender.com";
 
 interface Lead {
   company_name: string;
