@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react";
 import { Search, Download, RefreshCw, CheckCircle, AlertCircle, ExternalLink, Briefcase, Globe, Mail, Phone, User } from "lucide-react";
 
-const API_BASE = "https://data-scrapper-backend-678p.onrender.com";
+// آپ کا نیا لائیو بیک اینڈ لنک یہاں سیٹ کر دیا گیا ہے
+const API_BASE = "https://data-one-red.vercel.app";
 
 interface Lead {
   company_name: string;
